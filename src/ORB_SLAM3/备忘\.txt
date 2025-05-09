@@ -1,0 +1,4 @@
+
+cd /home/robot/catkin_view/src/ORB_SLAM3/build
+cmake .. -DCMAKE_BUILD_TYPE=Release
+make -j$(nproc)
