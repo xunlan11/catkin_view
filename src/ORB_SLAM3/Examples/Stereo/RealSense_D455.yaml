@@ -9,10 +9,10 @@ Camera.type: "Rectified"
 
 # Rectified Camera calibration and distortion parameters (OpenCV)
 # 修改为D455的近似值，实际使用时最好通过相机标定获取准确值
-Camera1.fx: 385.714
-Camera1.fy: 385.714
-Camera1.cx: 321.262
-Camera1.cy: 238.122
+Camera1.fx: 390.737
+Camera1.fy: 390.737
+Camera1.cx: 320.833
+Camera1.cy: 242.565
 
 # 修改为D455的基线距离，D455的基线比D435i大
 Stereo.b: 0.095
@@ -64,5 +64,4 @@ Viewer.ViewpointY: -0.7
 Viewer.ViewpointZ: -3.5
 Viewer.ViewpointF: 500.0
 
-System.LoadAtlasFromFile: "map"
 System.SaveAtlasToFile: "map"
