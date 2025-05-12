@@ -15,7 +15,7 @@ Camera1.cx: 320.833
 Camera1.cy: 242.565
 
 # 修改为D455的基线距离，D455的基线比D435i大
-Stereo.b: 0.095
+Stereo.b: 0.0951
 
 # Camera resolution
 Camera.width: 640
@@ -29,7 +29,7 @@ Camera.RGB: 1
 
 # Close/Far threshold. Baseline times.
 # 由于基线变大，可以调整深度阈值
-Stereo.ThDepth: 35.0
+Stereo.ThDepth: 40.0
 
 #--------------------------------------------------------------------------------------------
 # ORB Parameters
