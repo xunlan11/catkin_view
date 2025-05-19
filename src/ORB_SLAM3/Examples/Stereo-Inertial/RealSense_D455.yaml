@@ -46,8 +46,8 @@ IMU.InsertKFsWhenLost: 0
 # IMU噪声参数 - 针对D455的IMU特性调整
 IMU.NoiseGyro: 1.0e-3  # rad/s^0.5
 IMU.NoiseAcc: 1.0e-2   # m/s^1.5
-IMU.GyroWalk: 1.5e-6   # rad/s^1.5
-IMU.AccWalk: 1.5e-4    # m/s^2.5
+IMU.GyroWalk: 1.0e-5   # rad/s^1.5
+IMU.AccWalk: 1.0e-4    # m/s^2.5
 IMU.Frequency: 200.0   # D455 IMU频率
 
 #--------------------------------------------------------------------------------------------
